@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+@media screen and (max-width: 1280px)
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+a {
+  color: Blue;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+ul{
+list-style-type: none;
+}
+
+h1, h2, h3{
+    font-weight: 700;
+}
+
+.thin{
+    font-weight: 400;
+}
+
+body
+{
+font-family: 'Roboto', sans-serif;
+background-image: url("newbackground.jpg");
+background-repeat : no-repeat;
+background-position:center ;
+background-attachment : fixed  ;
+background-size : cover ;
+    
+}
+
+
+.container{
+    width: 80%;
+    margin: auto;
+    padding: 5%;
+    background: rgba(255,255,255,0.6);
+    text-align: center ;
+}
+
+header{
+    background-color: rgba(0,0,0,0.2);
+	color: black;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#main-nav{
+    margin-top: 32px;
+}
+
+#presentation-nav li{
+    display: inline;
+}
+
+#presentation-nav a{
+    color: black;
+    text-decoration: none;
+    padding: 1%;
+    border-radius: 1%;
+    background: rgba(255,255,255,1);
+}
+
+#presentation-nav a:hover{
+    background: rgba(255,255,255,0.5);
+    opacity: 1;
+}
+
+table{
+    width: 100%;
+}
+
+td, th{
+    padding: 8px;
+    border: 0;
+    background-color: rgba(255,255,255,0.4);
+}
+form    {
+    padding: 10%
+    width:15%;
+}
+fieldset    {
+    padding: 0 20px 20px 20px ;
+    margin-bottom: 10px;
+    border: 0 solid;
+}
+legend {
+    color: #DF3F3F
+    font-weight:bold;
+}
+label {
+    margin-top: 10px ;
+    color:black ;
+}
+label.inline{
+    margin-right: 50 ;
+
+}
+textarea {
+    resize:  none ;
+
+}
+input,textarea, select, option {
+    background-color: #FFF3F3
+}
+
+input, textarea, select {
+    padding: 3px;
+    border:1px solid    #F5C5C5;
+    border-radius: 5px ;
+   
+}
+select {
+    margin-top: 10px
+}
+input   [type=radio]{
+    color : blue;
+    background-color: transparent;
+    border : none ;
+    width: 10px ;
+}
+input   [type=submite], input   [type=reset] {
+    width  100px ;
+    margin-left : 5px ;
+    box-shadow: 1px 1px 2px #D83F3D
+    cursor : pointer ;
+}
